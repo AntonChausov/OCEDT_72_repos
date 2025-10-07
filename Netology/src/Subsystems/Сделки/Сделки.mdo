@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Enum.ТипыСобытий</content>
   <content>Document.Событие</content>
+  <content>Document.ПоступлениеТовара</content>
 </mdclass:Subsystem>

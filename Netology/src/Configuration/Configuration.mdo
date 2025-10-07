@@ -95,6 +95,7 @@
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ЗаказПокупателей</documents>
   <documents>Document.Событие</documents>
+  <documents>Document.ПоступлениеТовара</documents>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
   <enums>Enum.Пол</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
