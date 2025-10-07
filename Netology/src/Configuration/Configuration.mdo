@@ -97,6 +97,7 @@
   <documents>Document.Событие</documents>
   <documents>Document.ПоступлениеТовара</documents>
   <documents>Document.РеализацияТовара</documents>
+  <documents>Document.ПриемНаРаботу</documents>
   <enums>Enum.ЮридическоеФизическоеЛицо</enums>
   <enums>Enum.Пол</enums>
   <enums>Enum.ТипыНоменклатуры</enums>

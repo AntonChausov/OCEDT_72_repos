@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29bee3b6-f0da-48c6-86ae-87d408a63ef4">
+  <producedTypes>
+    <objectType typeId="c5b5aee1-24aa-4789-83c7-26db5f546447" valueTypeId="073e0a6f-2c44-4883-abdc-f0a19b4a47f7"/>
+    <refType typeId="21de13eb-bfab-4168-9737-eed6dbcf0ed3" valueTypeId="97abf4de-302a-456f-b799-d478c4957acd"/>
+    <selectionType typeId="6bca97cd-d340-421b-8097-0397b212f0c2" valueTypeId="2203a175-11aa-4ae8-b077-5787374a5e4a"/>
+    <listType typeId="f2c2e8d1-9098-492c-9192-1118de877f9f" valueTypeId="a21edcf4-02e8-48b8-ac06-c1a2e91c4bd2"/>
+    <managerType typeId="b5c5cf4d-c0a4-499c-86fa-a235d31f6f54" valueTypeId="2a674925-563d-49e2-966a-dd63cca64315"/>
+  </producedTypes>
+  <name>ПриемНаРаботу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прием на работу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПриемНаРаботу.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приемы на работу</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="57475cf1-76fe-4a05-95a4-a864f7d986ac">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>
