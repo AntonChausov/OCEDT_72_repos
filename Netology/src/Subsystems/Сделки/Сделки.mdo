@@ -10,4 +10,5 @@
   <content>Enum.ТипыСобытий</content>
   <content>Document.Событие</content>
   <content>Document.ПоступлениеТовара</content>
+  <content>Document.РеализацияТовара</content>
 </mdclass:Subsystem>
