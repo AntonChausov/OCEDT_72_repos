@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1058ad3-0300-4695-8dc1-09ece29d0397">
+  <producedTypes>
+    <managerType typeId="b3eb2ac2-2244-45bf-8ad3-22779f2084ce" valueTypeId="a8e82365-b50b-4686-823a-d92ac6624b43"/>
+    <valueManagerType typeId="749397f6-65eb-4bb5-99c1-fac3e13b4600" valueTypeId="9da4ad04-eb1e-47b5-bf9b-46e831ddd753"/>
+    <valueKeyType typeId="8c3d5a6a-f13d-4fa5-b289-be14fe811718" valueTypeId="d2fead0f-d330-4f7d-b7f9-8b1ec04a7edf"/>
+  </producedTypes>
+  <name>ВестиРасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести расчет зарплаты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

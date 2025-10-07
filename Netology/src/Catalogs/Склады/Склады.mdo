@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ae5902c-30b4-4d5c-a4f3-483e73279f8c">
+  <producedTypes>
+    <objectType typeId="7bdbe4de-4a39-4bc3-95fa-b0895d9025e4" valueTypeId="a3bbea2e-b184-487a-8f3d-5545f9154e62"/>
+    <refType typeId="76589a5b-113b-49f1-bc93-c062e881db9a" valueTypeId="73fd51d1-e3f7-4df6-b94a-06031f55df4a"/>
+    <selectionType typeId="02e7f3f8-e9e4-474d-8b78-5531dd41f7bb" valueTypeId="468dffcb-d51f-4983-a2c6-b8df894fbe97"/>
+    <listType typeId="df0959a3-bd35-4818-9f9e-1795db948449" valueTypeId="0d56fb08-4a87-4244-8f8a-6b4f7855b61e"/>
+    <managerType typeId="1b1d2ba5-a351-4bb0-9088-d59c6cd91cd5" valueTypeId="df70f045-f280-4b07-830a-09460650f3a0"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Склады</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Склады</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
